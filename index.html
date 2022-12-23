@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Words Extractor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!---Google font-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!----Style Sheet-->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <div class="container">
+        <header>
+          <h1>Word Extractor</h1>
+          <p>Extract each word separately from a paragraph!</p>
+        </header>
+        <main>
+          <textarea
+            class="textbox"
+            id=""
+            cols="20"
+            rows="10"
+            placeholder="Paste or type.."
+          ></textarea>
+          <p class="info">
+            there is <span id="wordCounterContainer">00</span> words and
+            <span id="uniqeWordCounterContainer">00</span> unique words and in
+            total <span id="charCounterContainer">00</span> characters.
+          </p>
+          <button class="mainBtn">Extract</button>
+          <div id="resultContainer" class="results"></div>
+        </main>
+        <footer>
+          <p>Made by <a href="">Khorshed</a></p>
+        </footer>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+}
+.container{
+    width: 1040px;
+    padding: 30px;
+}
+
+header{
+    padding: 14px 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+header h1{
+    font-family: "Poppins",sans-serif;
+    font-size: 25px;
+}
+header p{
+    font-size: 14px;
+    font-family: "Poppins",sans-serif;
+    font-weight: 400;
+}
+main{
+    width: 100%;
+}
+.textbox{
+    width:700px;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 13px;
+    font-family:"Poppins",sans-serif;
+    display: block;
+}
+.info{
+    font-size: 13px;
+    font-family: "Poppins",sans-serif;
+    font-weight: 300;
+    width: 700px;
+    margin: 0 auto;
+    
+}
+.info>span{
+    color: cornflowerblue;
+}
+.mainBtn{
+    padding: 4px 20px;
+    font-size: 15px;
+    font-family: "Poppins",sans-serif;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-weight: 400;
+
+}
+.results{
+    margin-top: 25px;
+}
+
+/* Word details */
+
+.wordCard{
+    border: 1px solid #e5e5e5;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+.word{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.word>p{
+    font-size: 14px;
+    font-family: "Poppins",sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.more{
+    display: flex;
+    cursor: pointer;
+    padding:10px;
+    border:1px solid transparent;
+    border-radius: 4px;
+
+}
+.more:hover{
+    border: 1px solid #e5e5e5;
+}
+.more>span{
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    display: block;
+    background-color: rgb(125, 123, 123);
+    margin: 0 1px;
+}
+
+.hiddenDetails{
+    display: none;
+    margin-top: 10px;
+    transition: all 0.4s ease-in-out;
+}
+.hiddenDetails >p{
+    font-family: "Poppins",sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    padding: 8px 0;
+}
+.hiddenDetails>h4{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Poppins",sans-serif;
+    padding: 5px 0;
+}
+.hiddenDetails>h4:last-of-type{
+    margin-top: 10px;
+}
+.hiddenDetails> button{
+    padding:3px 5px;
+    cursor: pointer;
+    font-size: 12px;
+     margin: 0 4px;
+    font-family: "Poppins",sans-serif;
+    
+}
+.meaning{
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.meaning-title{
+    font-family: "Poppins",sans-serif;
+    font-size: 15px;
+    color: tomato;
+    font-weight: 400;
+}
+.def{
+    font-size: 13px;
+    font-weight: 300;
+    font-family: "Poppins",sans-serif;
+}
+
+footer{
+    padding-top: 50px;
+}
+footer p{
+    text-align: center;
+    font-size: 14px;
+    font-family: "Poppins",sans-serif;
+}
+/*animation */
+@keyframes wordCardOpening {
+    0%{
+        opacity: 0;
+    }
+    50%{
+       opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+@media screen and (max-width:450px) {
+    .container{
+        width: 100%;
+        height: 100%;
+        padding: 15px;
+    }
+    .textbox,.info{
+        width: 100%;
+    }
+}

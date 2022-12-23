@@ -1,0 +1,22 @@
+
+            <!-- <div class="wordCard">
+              <div class="word">
+                <p>Happy</p>
+                <span class="more"
+                  ><span></span> <span></span> <span></span
+                ></span>
+              </div>
+              <div class="hiddenDetails">
+                <h4>Audio</h4>
+                <button>Au</button>
+                <button>Us</button>
+                <button>Uk</button>
+                <h4>Meanings</h4>
+                <div class="meanings">
+                  <div class="meaning">
+                    <p class="meaning-title">Noun</p>
+                    <p class="def">A happy event, thing, person, etc.</p>
+                  </div>
+                </div>
+              </div>
+            </div> -->
